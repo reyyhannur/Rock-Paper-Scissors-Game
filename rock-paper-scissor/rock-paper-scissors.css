@@ -1,0 +1,92 @@
+body {
+  background-color: #ffc3ed;
+  color: #9c72b8;
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 7px solid #b0f1ff;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.move-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.move-button {
+  background-color: transparent;
+  border: 7px solid #b0f1ff;
+  width: 120px;
+  .button-container {
+    display: flex;
+    justify-content: center; /* Butonları yatayda merkezle */
+    align-items: center; /* Butonları dikeyde merkezle */
+  }
+  .move-button {
+    background-color: transparent;
+    border: 7px solid #b0f1ff;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .move-button:hover {
+    transform: scale(1.1); /* Düğmeyi büyütme */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.move-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.reset-score-button,
+.auto-play-button {
+  background-color: #cbfffe;
+  border: 5px solid #ebaefb;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
